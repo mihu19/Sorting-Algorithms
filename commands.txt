@@ -1,1 +1,0 @@
-g++ main.cpp BubbleSort.cpp InsertionSort.cpp ShellSort.cpp MergeSort.cpp ArrayGenerator.cpp Files.cpp Memory.cpp CSV.cpp -o sort
