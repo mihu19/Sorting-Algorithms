@@ -1,2 +1,1 @@
-# Sorting-Algorithms
-i will think about it later
+g++ -O3 -march=native -fopenmp  -DNDEBUG -fno-exceptions -fno-rtti -lpsapi sort.cpp -o hybrid_sort
