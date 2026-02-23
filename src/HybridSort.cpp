@@ -6,7 +6,6 @@
 #include <cstring>
 #include <type_traits>
 #include <omp.h>
-
 using namespace std;
 
 //ALIGNED MEMORY MACROS
@@ -136,4 +135,5 @@ void hybridSort(vector<int>& data) {
             radixSort<11, true>(data);
         }
     }
+
 }
