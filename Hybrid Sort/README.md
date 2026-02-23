@@ -1,2 +1,3 @@
-# Sorting-Algorithms
-i will think about it later
+# To compile:
+g++ -O3 -march=native -fopenmp  -DNDEBUG -fno-exceptions -fno-rtti -lpsapi sort.cpp -o swc_sort
+
