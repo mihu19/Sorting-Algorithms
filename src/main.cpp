@@ -1,11 +1,13 @@
 #include <iostream>
 #include <vector>
 #include <chrono>
+#include <string>
 #include "utils.h"
+
 using namespace std;
 using namespace std::chrono;
 
-//SORTING ALGORITHMS
+// SORTING ALGORITHMS
 void executeSort(int choice, vector<int>& data) 
 {
     switch (choice) 
@@ -17,13 +19,16 @@ void executeSort(int choice, vector<int>& data)
             if (!data.empty())
                 mergeSort(data, 0, data.size() - 1); 
             break;
+        case 5: 
+            hybridSort(data); 
+            break;
         default:
             cout << "Invalid algorithm choice.\n";
             exit(1);
     }
 }
 
-//ARRAY GENERATORS
+// ARRAY GENERATORS
 vector<int> generateArrayByType(int type, int size) 
 {
     switch (type) 
@@ -39,10 +44,11 @@ vector<int> generateArrayByType(int type, int size)
     }
 }
 
-//MAIN
+// MAIN
 int main() 
 {
-    int mode, algorithmChoice, arrayType, size;
+    int mode, algorithmChoice, arrayType = 0, size = 0;
+    string customFileName = "";
     
     cout << "\n========== Sorting Algorithms Benchmark ==========\n\n";
 
@@ -51,28 +57,39 @@ int main()
     cout << "2. Generate File -> Read -> Sort -> Write\n";
     cout << "3. Generate Array -> Sort -> Write to File\n";
     cout << "4. Generate File -> Read -> Sort -> Print to Console\n";
+    cout << "5. Read from custom file -> Sort\n";
     cout << "Enter choice: ";
     cin >> mode;
+
+    if (mode == 5) 
+    {
+        cout << "Enter the input file name (data.txt): ";
+        cin >> customFileName;
+    }
 
     cout << "\nSelect Sorting Algorithm:\n";
     cout << "1. Bubble Sort\n";
     cout << "2. Insertion Sort\n";
     cout << "3. Shell Sort\n";
     cout << "4. Merge Sort\n";
-    cout << "Enter choice (1-4): ";
+    cout << "5. Hybrid Sort\n"; 
+    cout << "Enter choice (1-5): ";     
     cin >> algorithmChoice;
 
-    cout << "\nEnter size: ";
-    cin >> size;
+    // Skip size and array type generation prompts if reading from an existing custom file
+    if (mode != 5) {
+        cout << "\nEnter size: ";
+        cin >> size;
 
-    cout << "\nSelect Array Type:\n";
-    cout << "1. Sorted\n";
-    cout << "2. Reverse Sorted\n";
-    cout << "3. Random\n";
-    cout << "4. Half-Sorted\n";
-    cout << "5. Mixed (+/-)\n";
-    cout << "Enter choice (1-5): ";
-    cin >> arrayType;
+        cout << "\nSelect Array Type:\n";
+        cout << "1. Sorted\n";
+        cout << "2. Reverse Sorted\n";
+        cout << "3. Random\n";
+        cout << "4. Half-Sorted\n";
+        cout << "5. Mixed (+/-)\n";
+        cout << "Enter choice (1-5): ";
+        cin >> arrayType;
+    }
 
     vector<int> data;
     duration<double> elapsed;
@@ -156,7 +173,24 @@ int main()
         cout << "\n\n=== Read + Sort Benchmark ===\n";
     }
 
-    //Metrics/Export
+    // Mode 5: Read from Custom File -> Sort
+   else if (mode == 5)
+    {
+        data = readFromFile(customFileName);
+        size = data.size(); 
+        
+        //Timer - only sorting
+        auto start = high_resolution_clock::now();
+        
+        executeSort(algorithmChoice, data);
+        
+        auto stop = high_resolution_clock::now();
+        
+        elapsed = stop - start;
+        cout << "\n=== Custom File Benchmark (Sort Only) ===\n";
+    }
+
+    // Metrics/Export
     double memoryUsed = getMemoryUsageMB();
 
     // Console output for metrics
