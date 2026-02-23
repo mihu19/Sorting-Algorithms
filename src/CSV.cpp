@@ -24,6 +24,7 @@ string getAlgorithmName(int choice)
         case 2: return "Insertion Sort";
         case 3: return "Shell Sort";
         case 4: return "Merge Sort";
+        case 5: return "Hybrid Sort"; 
         default: return "Unknown Algorithm";
     }
 }
