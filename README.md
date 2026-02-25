@@ -28,8 +28,16 @@ To compile and run this project:
 * **Windows PowerShell** or standard command prompt.
 * **Python 3.x** (Optional: only needed if you want to run the analysis scripts in the `Tools/` folder).
 
-### Installation & Compilation (Windows)
 
+### Installation & Compilation (Windows)
+### Option A: Using Visual Studio Code (No Git Required)
+
+1. **Download the Code:** Click the green **Code** button at the top of this repository and select **Download ZIP**. Extract the folder to your computer.
+2. **Open the Project:** Launch Visual Studio Code and open the extracted `Sorting-Algorithms` folder.
+3. **Open the Terminal:** In the top menu, click **Terminal** > **New Terminal** (or press `` Ctrl + ` ``).
+4. **Navigate to the Source Folder:**
+
+### Option B: Using CMD (Git Required)
 1. Clone the repository:
    ```bash
    git clone https://github.com/mihu19/Sorting-Algorithms.git
