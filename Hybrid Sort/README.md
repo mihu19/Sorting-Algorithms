@@ -13,14 +13,15 @@ To compile and run this code:
 3. **Navigate to the Source Folder:**
    ```bash
    cd "Hybrid Sort"
-4. Compile:
+4. **Compile:**
    ```bash
     g++ -O3 -march=native -fopenmp  -DNDEBUG -fno-exceptions -fno-rtti -lpsapi sort.cpp -o HybridSort
-5. Run:
+5. **Run:**
    ```bash
    .\HybridSort.exe input.txt               ::Reading file + Sorting
    .\HybridSort.exe input.txt stdout        ::Reading file + Sorting + Printing in Console
    .\HybridSort.exe input.txt output.txt    ::Reading file + Sorting + Writing output in file
+
 
 
 
