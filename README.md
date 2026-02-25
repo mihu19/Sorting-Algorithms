@@ -29,7 +29,7 @@ To compile and run this project:
 * **Python 3.x** (Optional: only needed if you want to run the analysis scripts in the `Tools/` folder).
 
 
-### Installation & Compilation (Windows)
+## Installation & Compilation (Windows)
 ### Option A: Using Visual Studio Code (No Git Required)
 
 1. **Download the Code:** Click the green **Code** button at the top of this repository and select **Download ZIP**. Extract the folder to your computer.
