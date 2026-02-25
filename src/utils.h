@@ -9,8 +9,6 @@ void shellSort(std::vector<int>& arr);
 void mergeSort(std::vector<int>& arr, int left, int right);
 void hybridSort(std::vector<int>& data);
 
-//void quickSort(std::vector<int>& arr, int low, int high);
-
 // Array Generators
 std::vector<int> generateSortedVector(int size);
 std::vector<int> generateReverseSortedVector(int size);
