@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import sys
 import os
 
-ALGORITHM_COLORS = {
+ALGORITHM_COLORS = { 
     'Bubble Sort': ('salmon', 'skyblue'),
     'Insertion Sort': ('mediumpurple', 'lightgreen'),
     'Shell Sort': ('coral', 'teal'),
@@ -116,4 +116,5 @@ if __name__ == "__main__":
         sys.exit(1)
     except KeyboardInterrupt:
         print("\ncanceled")
+
         sys.exit(0)
