@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-ALGORITHM_COLORS = {
+ALGORITHM_COLORS = { 
     'Bubble Sort': ('salmon', 'skyblue'),
     'Insertion Sort': ('mediumpurple', 'lightgreen'),
     'Shell Sort': ('coral', 'teal'),
@@ -86,4 +86,5 @@ def generate_diagram():
     plt.show()
 
 if __name__ == "__main__":
+
     generate_diagram()
