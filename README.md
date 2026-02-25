@@ -21,11 +21,10 @@ The repository includes the following sorting algorithms:
 * **`Results/`**: The output directory where the generated CSV benchmark files are saved.
 * **`Hybrid Sort/`**: Contains specific logic, data, or tests dedicated to the hybrid sorting approach.
 
-## 🚀 Getting Started
+## Prerequisites
 
-### Prerequisites
-To compile and run this project, you will need:
-* **C++ Compiler:** `g++` (MinGW recommended for Windows)
+To compile and run this project:
+* **C++ Compiler:** 
 * **Windows PowerShell** or standard command prompt.
 * **Python 3.x** (Optional: only needed if you want to run the analysis scripts in the `Tools/` folder).
 
