@@ -36,3 +36,9 @@ To compile and run this project:
 2. Navigate to the `src` directory:
    ```bash
    cd Sorting-Algorithms/src
+3. Compile:
+   ```bash
+   g++ main.cpp BubbleSort.cpp InsertionSort.cpp ShellSort.cpp MergeSort.cpp HybridSort.cpp ArrayGenerator.cpp Files.cpp Memory.cpp CSV.cpp -o sort -lpsapi -fopenmp -O3
+4. Run:
+   ```bash
+   .\sort.exe
