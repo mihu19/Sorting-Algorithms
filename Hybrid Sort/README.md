@@ -6,7 +6,7 @@ To compile and run this code:
 * **Input.txt** file with elements to be sorted
 
 
-##Compilation and Running (Windows)
+## Compilation and Running (Windows)
 
 1. **Open the Project:** Launch Visual Studio Code and open the extracted `Sorting-Algorithms` folder.
 2. **Open the Terminal:** In the top menu, click **Terminal** > **New Terminal** (or press `` Ctrl + ` ``).
@@ -21,5 +21,6 @@ To compile and run this code:
    .\HybridSort.exe input.txt               ::Reading file + Sorting
    .\HybridSort.exe input.txt stdout        ::Reading file + Sorting + Printing in Console
    .\HybridSort.exe input.txt output.txt    ::Reading file + Sorting + Writing output in file
+
 
 
