@@ -1,0 +1,441 @@
+Mode,Algorithm,Array Type,Size,Time (Seconds),Memory (MB)
+In-Memory Benchmark,Bubble Sort,Sorted,100,9.00E-07,4.85547
+In-Memory Benchmark,Bubble Sort,Reverse Sorted,100,0.0001161,4.84766
+In-Memory Benchmark,Bubble Sort,Random,100,5.52E-05,4.85938
+In-Memory Benchmark,Bubble Sort,Half-Sorted,100,4.84E-05,4.86719
+In-Memory Benchmark,Bubble Sort,Mixed (+/-),100,6.00E-05,4.85938
+In-Memory Benchmark,Bubble Sort,Sorted,1000,6.50E-06,4.84766
+In-Memory Benchmark,Bubble Sort,Reverse Sorted,1000,0.0072425,4.84766
+In-Memory Benchmark,Bubble Sort,Random,1000,0.0064371,4.85938
+In-Memory Benchmark,Bubble Sort,Half-Sorted,1000,0.0066496,4.85938
+In-Memory Benchmark,Bubble Sort,Mixed (+/-),1000,0.0055662,4.86328
+In-Memory Benchmark,Bubble Sort,Sorted,10000,7.99E-05,4.89844
+In-Memory Benchmark,Bubble Sort,Reverse Sorted,10000,0.785733,4.89062
+In-Memory Benchmark,Bubble Sort,Random,10000,0.602805,4.89453
+In-Memory Benchmark,Bubble Sort,Half-Sorted,10000,0.547895,4.89844
+In-Memory Benchmark,Bubble Sort,Mixed (+/-),10000,0.589757,4.89453
+In-Memory Benchmark,Insertion Sort,Sorted,100,1.10E-06,4.85938
+In-Memory Benchmark,Insertion Sort,Reverse Sorted,100,4.58E-05,4.84766
+In-Memory Benchmark,Insertion Sort,Random,100,2.46E-05,4.86328
+In-Memory Benchmark,Insertion Sort,Half-Sorted,100,4.13E-05,4.86328
+In-Memory Benchmark,Insertion Sort,Mixed (+/-),100,2.48E-05,4.86328
+In-Memory Benchmark,Insertion Sort,Sorted,1000,9.90E-06,4.85156
+In-Memory Benchmark,Insertion Sort,Reverse Sorted,1000,0.0045775,4.85156
+In-Memory Benchmark,Insertion Sort,Random,1000,0.0025557,4.86328
+In-Memory Benchmark,Insertion Sort,Half-Sorted,1000,0.0016832,4.85547
+In-Memory Benchmark,Insertion Sort,Mixed (+/-),1000,0.00283,4.87109
+In-Memory Benchmark,Insertion Sort,Sorted,10000,9.66E-05,4.88281
+In-Memory Benchmark,Insertion Sort,Reverse Sorted,10000,0.453181,4.90234
+In-Memory Benchmark,Insertion Sort,Random,10000,0.225411,4.89453
+In-Memory Benchmark,Insertion Sort,Half-Sorted,10000,0.169534,4.89453
+In-Memory Benchmark,Insertion Sort,Mixed (+/-),10000,0.22022,4.89453
+In-Memory Benchmark,Shell Sort,Sorted,100,5.00E-06,4.85547
+In-Memory Benchmark,Shell Sort,Reverse Sorted,100,8.00E-06,4.85156
+In-Memory Benchmark,Shell Sort,Random,100,1.49E-05,4.85547
+In-Memory Benchmark,Shell Sort,Half-Sorted,100,1.56E-05,4.85156
+In-Memory Benchmark,Shell Sort,Mixed (+/-),100,1.57E-05,4.85547
+In-Memory Benchmark,Shell Sort,Sorted,1000,7.63E-05,4.85156
+In-Memory Benchmark,Shell Sort,Reverse Sorted,1000,0.0001211,4.84766
+In-Memory Benchmark,Shell Sort,Random,1000,0.0003714,4.86719
+In-Memory Benchmark,Shell Sort,Half-Sorted,1000,0.0003267,4.87109
+In-Memory Benchmark,Shell Sort,Mixed (+/-),1000,0.0002242,4.86328
+In-Memory Benchmark,Shell Sort,Sorted,10000,0.0011919,4.89062
+In-Memory Benchmark,Shell Sort,Reverse Sorted,10000,0.0033285,4.88672
+In-Memory Benchmark,Shell Sort,Random,10000,0.0039257,4.90234
+In-Memory Benchmark,Shell Sort,Half-Sorted,10000,0.0032215,4.91016
+In-Memory Benchmark,Shell Sort,Mixed (+/-),10000,0.0048508,4.89062
+In-Memory Benchmark,Shell Sort,Sorted,100000,0.0183957,5.23438
+In-Memory Benchmark,Shell Sort,Reverse Sorted,100000,0.0255117,5.24219
+In-Memory Benchmark,Shell Sort,Random,100000,0.062228,5.23438
+In-Memory Benchmark,Shell Sort,Half-Sorted,100000,0.0501651,5.23828
+In-Memory Benchmark,Shell Sort,Mixed (+/-),100000,0.0540766,5.24219
+In-Memory Benchmark,Shell Sort,Sorted,1000000,0.169659,8.66797
+In-Memory Benchmark,Shell Sort,Reverse Sorted,1000000,0.264637,8.66797
+In-Memory Benchmark,Shell Sort,Random,1000000,0.736271,8.67578
+In-Memory Benchmark,Shell Sort,Half-Sorted,1000000,0.467282,8.67188
+In-Memory Benchmark,Shell Sort,Mixed (+/-),1000000,0.725277,8.67578
+In-Memory Benchmark,Merge Sort,Sorted,100,3.39E-05,4.85156
+In-Memory Benchmark,Merge Sort,Reverse Sorted,100,3.40E-05,4.84766
+In-Memory Benchmark,Merge Sort,Random,100,4.09E-05,4.85938
+In-Memory Benchmark,Merge Sort,Half-Sorted,100,6.69E-05,4.87109
+In-Memory Benchmark,Merge Sort,Mixed (+/-),100,7.08E-05,4.86328
+In-Memory Benchmark,Merge Sort,Sorted,1000,0.0003624,4.85547
+In-Memory Benchmark,Merge Sort,Reverse Sorted,1000,0.000355,4.85156
+In-Memory Benchmark,Merge Sort,Random,1000,0.0004451,4.86719
+In-Memory Benchmark,Merge Sort,Half-Sorted,1000,0.0007348,4.86328
+In-Memory Benchmark,Merge Sort,Mixed (+/-),1000,0.0004663,4.86328
+In-Memory Benchmark,Merge Sort,Sorted,10000,0.0050445,4.93359
+In-Memory Benchmark,Merge Sort,Reverse Sorted,10000,0.0075831,4.9375
+In-Memory Benchmark,Merge Sort,Random,10000,0.0054382,4.9375
+In-Memory Benchmark,Merge Sort,Half-Sorted,10000,0.0058486,4.94922
+In-Memory Benchmark,Merge Sort,Mixed (+/-),10000,0.0057784,4.94141
+In-Memory Benchmark,Merge Sort,Sorted,100000,0.0519017,5.61328
+In-Memory Benchmark,Merge Sort,Reverse Sorted,100000,0.0505288,5.61719
+In-Memory Benchmark,Merge Sort,Random,100000,0.0593114,5.62109
+In-Memory Benchmark,Merge Sort,Half-Sorted,100000,0.0541563,5.625
+In-Memory Benchmark,Merge Sort,Mixed (+/-),100000,0.0583503,5.625
+In-Memory Benchmark,Merge Sort,Sorted,1000000,0.634497,14.9297
+In-Memory Benchmark,Merge Sort,Reverse Sorted,1000000,0.662722,14.6836
+In-Memory Benchmark,Merge Sort,Random,1000000,0.776677,14.9297
+In-Memory Benchmark,Merge Sort,Half-Sorted,1000000,0.620902,14.6992
+In-Memory Benchmark,Merge Sort,Mixed (+/-),1000000,0.677199,14.6914
+Read -> Sort -> Write,Bubble Sort,Sorted,100,0.0148752,4.96484
+Read -> Sort -> Write,Bubble Sort,Reverse Sorted,100,0.0184338,4.96875
+Read -> Sort -> Write,Bubble Sort,Random,100,0.0182806,4.96094
+Read -> Sort -> Write,Bubble Sort,Half-Sorted,100,0.0159671,4.95312
+Read -> Sort -> Write,Bubble Sort,Mixed (+/-),100,0.0145694,4.96094
+Read -> Sort -> Write,Bubble Sort,Sorted,1000,0.0343132,4.97266
+Read -> Sort -> Write,Bubble Sort,Reverse Sorted,1000,0.0301279,4.97656
+Read -> Sort -> Write,Bubble Sort,Random,1000,0.0346621,4.97656
+Read -> Sort -> Write,Bubble Sort,Half-Sorted,1000,0.01953,4.97656
+Read -> Sort -> Write,Bubble Sort,Mixed (+/-),1000,0.0205079,4.98828
+Read -> Sort -> Write,Bubble Sort,Sorted,10000,0.0352652,5.08984
+Read -> Sort -> Write,Bubble Sort,Reverse Sorted,10000,0.784091,5.11719
+Read -> Sort -> Write,Bubble Sort,Random,10000,0.614968,5.09375
+Read -> Sort -> Write,Bubble Sort,Half-Sorted,10000,0.593278,5.10156
+Read -> Sort -> Write,Bubble Sort,Mixed (+/-),10000,0.599745,5.10938
+Read -> Sort -> Write,Insertion Sort,Sorted,100,0.0027121,4.95703
+Read -> Sort -> Write,Insertion Sort,Reverse Sorted,100,0.0018474,4.96875
+Read -> Sort -> Write,Insertion Sort,Random,100,0.0148238,4.97656
+Read -> Sort -> Write,Insertion Sort,Half-Sorted,100,0.0100745,4.96484
+Read -> Sort -> Write,Insertion Sort,Mixed (+/-),100,0.0094101,4.96094
+Read -> Sort -> Write,Insertion Sort,Sorted,1000,0.0020594,4.97266
+Read -> Sort -> Write,Insertion Sort,Reverse Sorted,1000,0.0066661,4.97266
+Read -> Sort -> Write,Insertion Sort,Random,1000,0.023497,4.98828
+Read -> Sort -> Write,Insertion Sort,Half-Sorted,1000,0.014447,4.97656
+Read -> Sort -> Write,Insertion Sort,Mixed (+/-),1000,0.0154555,4.96484
+Read -> Sort -> Write,Insertion Sort,Sorted,10000,0.0325309,5.11328
+Read -> Sort -> Write,Insertion Sort,Reverse Sorted,10000,0.468284,5.10547
+Read -> Sort -> Write,Insertion Sort,Random,10000,0.237914,5.10547
+Read -> Sort -> Write,Insertion Sort,Half-Sorted,10000,0.204239,5.10547
+Read -> Sort -> Write,Insertion Sort,Mixed (+/-),10000,0.242227,5.10547
+Read -> Sort -> Write,Shell Sort,Sorted,100,0.0277166,4.95312
+Read -> Sort -> Write,Shell Sort,Reverse Sorted,100,0.0013937,4.95312
+Read -> Sort -> Write,Shell Sort,Random,100,0.01038,4.95703
+Read -> Sort -> Write,Shell Sort,Half-Sorted,100,0.0092294,4.97656
+Read -> Sort -> Write,Shell Sort,Mixed (+/-),100,0.0105751,4.95703
+Read -> Sort -> Write,Shell Sort,Sorted,1000,0.0019614,4.97266
+Read -> Sort -> Write,Shell Sort,Reverse Sorted,1000,0.0033537,4.96484
+Read -> Sort -> Write,Shell Sort,Random,1000,0.0237017,4.98047
+Read -> Sort -> Write,Shell Sort,Half-Sorted,1000,0.0155536,4.97656
+Read -> Sort -> Write,Shell Sort,Mixed (+/-),1000,0.013417,4.97656
+Read -> Sort -> Write,Shell Sort,Sorted,10000,0.036423,5.10547
+Read -> Sort -> Write,Shell Sort,Reverse Sorted,10000,0.0305759,5.09766
+Read -> Sort -> Write,Shell Sort,Random,10000,0.032373,5.11719
+Read -> Sort -> Write,Shell Sort,Half-Sorted,10000,0.0371988,5.10156
+Read -> Sort -> Write,Shell Sort,Mixed (+/-),10000,0.0208514,5.11328
+Read -> Sort -> Write,Shell Sort,Sorted,100000,0.0805193,5.85547
+Read -> Sort -> Write,Shell Sort,Reverse Sorted,100000,0.0762477,5.86328
+Read -> Sort -> Write,Shell Sort,Random,100000,0.10375,5.85156
+Read -> Sort -> Write,Shell Sort,Half-Sorted,100000,0.114304,5.85547
+Read -> Sort -> Write,Shell Sort,Mixed (+/-),100000,0.1055,5.85156
+Read -> Sort -> Write,Shell Sort,Sorted,1000000,0.567013,13.5352
+Read -> Sort -> Write,Shell Sort,Reverse Sorted,1000000,0.64676,13.5391
+Read -> Sort -> Write,Shell Sort,Random,1000000,0.941178,13.5469
+Read -> Sort -> Write,Shell Sort,Half-Sorted,1000000,0.865847,13.793
+Read -> Sort -> Write,Shell Sort,Mixed (+/-),1000000,1.08707,13.5469
+Read -> Sort -> Write,Merge Sort,Sorted,100,0.0020158,4.96094
+Read -> Sort -> Write,Merge Sort,Reverse Sorted,100,0.0019336,4.96484
+Read -> Sort -> Write,Merge Sort,Random,100,0.0132709,4.96875
+Read -> Sort -> Write,Merge Sort,Half-Sorted,100,0.012164,4.96094
+Read -> Sort -> Write,Merge Sort,Mixed (+/-),100,0.0122021,4.96094
+Read -> Sort -> Write,Merge Sort,Sorted,1000,0.0025926,4.97266
+Read -> Sort -> Write,Merge Sort,Reverse Sorted,1000,0.0022736,4.97266
+Read -> Sort -> Write,Merge Sort,Random,1000,0.0210189,4.98438
+Read -> Sort -> Write,Merge Sort,Half-Sorted,1000,0.014356,4.97656
+Read -> Sort -> Write,Merge Sort,Mixed (+/-),1000,0.0150872,4.97656
+Read -> Sort -> Write,Merge Sort,Sorted,10000,0.0378427,5.11328
+Read -> Sort -> Write,Merge Sort,Reverse Sorted,10000,0.03018,5.11328
+Read -> Sort -> Write,Merge Sort,Random,10000,0.0314132,5.10156
+Read -> Sort -> Write,Merge Sort,Half-Sorted,10000,0.0411825,5.11719
+Read -> Sort -> Write,Merge Sort,Mixed (+/-),10000,0.025438,5.12891
+Read -> Sort -> Write,Merge Sort,Sorted,100000,0.107784,6.28516
+Read -> Sort -> Write,Merge Sort,Reverse Sorted,100000,0.105708,6.28906
+Read -> Sort -> Write,Merge Sort,Random,100000,0.107986,6.29688
+Read -> Sort -> Write,Merge Sort,Half-Sorted,100000,0.130201,6.30078
+Read -> Sort -> Write,Merge Sort,Mixed (+/-),100000,0.102392,6.17188
+Read -> Sort -> Write,Merge Sort,Sorted,1000000,0.693712,18.8438
+Read -> Sort -> Write,Merge Sort,Reverse Sorted,1000000,0.894114,17.4141
+Read -> Sort -> Write,Merge Sort,Random,1000000,1.07844,17.4219
+Read -> Sort -> Write,Merge Sort,Half-Sorted,1000000,0.988529,17.4375
+Read -> Sort -> Write,Merge Sort,Mixed (+/-),1000000,1.04607,17.4062
+Sort -> Write,Bubble Sort,Sorted,100,0.0004524,4.94922
+Sort -> Write,Bubble Sort,Reverse Sorted,100,0.000509,4.94141
+Sort -> Write,Bubble Sort,Random,100,0.000575,4.95703
+Sort -> Write,Bubble Sort,Half-Sorted,100,0.0011488,4.95312
+Sort -> Write,Bubble Sort,Mixed (+/-),100,0.0006759,4.94531
+Sort -> Write,Bubble Sort,Sorted,1000,0.0004713,4.96094
+Sort -> Write,Bubble Sort,Reverse Sorted,1000,0.0093767,4.94531
+Sort -> Write,Bubble Sort,Random,1000,0.0071086,4.96094
+Sort -> Write,Bubble Sort,Half-Sorted,1000,0.0063401,4.96875
+Sort -> Write,Bubble Sort,Mixed (+/-),1000,0.0069568,4.95703
+Sort -> Write,Bubble Sort,Sorted,10000,0.0018529,4.98438
+Sort -> Write,Bubble Sort,Reverse Sorted,10000,0.679874,4.98438
+Sort -> Write,Bubble Sort,Random,10000,0.584538,4.98047
+Sort -> Write,Bubble Sort,Half-Sorted,10000,0.553266,4.98438
+Sort -> Write,Bubble Sort,Mixed (+/-),10000,0.584487,5
+Sort -> Write,Insertion Sort,Sorted,100,0.0005579,4.94922
+Sort -> Write,Insertion Sort,Reverse Sorted,100,0.0005547,4.9375
+Sort -> Write,Insertion Sort,Random,100,0.0007382,4.96875
+Sort -> Write,Insertion Sort,Half-Sorted,100,0.0033719,4.96094
+Sort -> Write,Insertion Sort,Mixed (+/-),100,0.0006733,4.97656
+Sort -> Write,Insertion Sort,Sorted,1000,0.0004758,4.96094
+Sort -> Write,Insertion Sort,Reverse Sorted,1000,0.0079204,4.95703
+Sort -> Write,Insertion Sort,Random,1000,0.0052683,4.96875
+Sort -> Write,Insertion Sort,Half-Sorted,1000,0.0066595,4.95703
+Sort -> Write,Insertion Sort,Mixed (+/-),1000,0.0030935,4.97656
+Sort -> Write,Insertion Sort,Sorted,10000,0.001292,4.99609
+Sort -> Write,Insertion Sort,Reverse Sorted,10000,0.446831,4.97656
+Sort -> Write,Insertion Sort,Random,10000,0.219554,4.99219
+Sort -> Write,Insertion Sort,Half-Sorted,10000,0.173043,4.98828
+Sort -> Write,Insertion Sort,Mixed (+/-),10000,0.22308,5
+Sort -> Write,Shell Sort,Sorted,100,0.0005113,4.94141
+Sort -> Write,Shell Sort,Reverse Sorted,100,0.0005774,4.94531
+Sort -> Write,Shell Sort,Random,100,0.0008696,4.95703
+Sort -> Write,Shell Sort,Half-Sorted,100,0.0008384,4.95312
+Sort -> Write,Shell Sort,Mixed (+/-),100,0.0005464,4.94922
+Sort -> Write,Shell Sort,Sorted,1000,0.0011486,4.95312
+Sort -> Write,Shell Sort,Reverse Sorted,1000,0.0006201,4.95312
+Sort -> Write,Shell Sort,Random,1000,0.0010741,4.96094
+Sort -> Write,Shell Sort,Half-Sorted,1000,0.0117892,4.96484
+Sort -> Write,Shell Sort,Mixed (+/-),1000,0.0007774,4.95703
+Sort -> Write,Shell Sort,Sorted,10000,0.0051954,4.98438
+Sort -> Write,Shell Sort,Reverse Sorted,10000,0.0143106,4.99219
+Sort -> Write,Shell Sort,Random,10000,0.0058846,4.99219
+Sort -> Write,Shell Sort,Half-Sorted,10000,0.0078495,5.00391
+Sort -> Write,Shell Sort,Mixed (+/-),10000,0.0051587,5.00391
+Sort -> Write,Shell Sort,Sorted,100000,0.0350909,5.32422
+Sort -> Write,Shell Sort,Reverse Sorted,100000,0.0379052,5.32812
+Sort -> Write,Shell Sort,Random,100000,0.0646606,5.33984
+Sort -> Write,Shell Sort,Half-Sorted,100000,0.0605367,5.33984
+Sort -> Write,Shell Sort,Mixed (+/-),100000,0.0628044,5.33203
+Sort -> Write,Shell Sort,Sorted,1000000,0.247472,8.76172
+Sort -> Write,Shell Sort,Reverse Sorted,1000000,0.342436,8.76953
+Sort -> Write,Shell Sort,Random,1000000,0.790793,8.76562
+Sort -> Write,Shell Sort,Half-Sorted,1000000,0.553971,8.77344
+Sort -> Write,Shell Sort,Mixed (+/-),1000000,0.801021,8.78125
+Sort -> Write,Merge Sort,Sorted,100,0.0017275,4.94922
+Sort -> Write,Merge Sort,Reverse Sorted,100,0.0007921,4.94531
+Sort -> Write,Merge Sort,Random,100,0.0007582,4.94922
+Sort -> Write,Merge Sort,Half-Sorted,100,0.0006438,4.96094
+Sort -> Write,Merge Sort,Mixed (+/-),100,0.0004749,4.96094
+Sort -> Write,Merge Sort,Sorted,1000,0.0014672,4.95312
+Sort -> Write,Merge Sort,Reverse Sorted,1000,0.0009039,4.95312
+Sort -> Write,Merge Sort,Random,1000,0.0009849,4.94922
+Sort -> Write,Merge Sort,Half-Sorted,1000,0.0084528,4.96484
+Sort -> Write,Merge Sort,Mixed (+/-),1000,0.0014134,4.96094
+Sort -> Write,Merge Sort,Sorted,10000,0.0056122,5.02734
+Sort -> Write,Merge Sort,Reverse Sorted,10000,0.0165649,5.03125
+Sort -> Write,Merge Sort,Random,10000,0.0111353,5.02344
+Sort -> Write,Merge Sort,Half-Sorted,10000,0.0088433,5.03906
+Sort -> Write,Merge Sort,Mixed (+/-),10000,0.0096852,5.02734
+Sort -> Write,Merge Sort,Sorted,100000,0.0636541,5.62109
+Sort -> Write,Merge Sort,Reverse Sorted,100000,0.0652444,5.61719
+Sort -> Write,Merge Sort,Random,100000,0.0686811,5.62891
+Sort -> Write,Merge Sort,Half-Sorted,100000,0.0689459,5.62109
+Sort -> Write,Merge Sort,Mixed (+/-),100000,0.0706098,5.62109
+Sort -> Write,Merge Sort,Sorted,1000000,0.601382,14.6758
+Sort -> Write,Merge Sort,Reverse Sorted,1000000,0.605871,14.6758
+Sort -> Write,Merge Sort,Random,1000000,0.739564,14.9297
+Sort -> Write,Merge Sort,Half-Sorted,1000000,0.668835,14.6992
+Sort -> Write,Merge Sort,Mixed (+/-),1000000,0.739331,14.9375
+Read -> Sort,Bubble Sort,Sorted,100,0.0010051,4.95703
+Read -> Sort,Bubble Sort,Reverse Sorted,100,0.0012286,4.96875
+Read -> Sort,Bubble Sort,Random,100,0.0176237,4.96094
+Read -> Sort,Bubble Sort,Half-Sorted,100,0.0118138,4.96875
+Read -> Sort,Bubble Sort,Mixed (+/-),100,0.0111982,4.96484
+Read -> Sort,Bubble Sort,Sorted,1000,0.0013917,4.97266
+Read -> Sort,Bubble Sort,Reverse Sorted,1000,0.008456,4.97266
+Read -> Sort,Bubble Sort,Random,1000,0.023047,4.97656
+Read -> Sort,Bubble Sort,Half-Sorted,1000,0.0180969,4.95312
+Read -> Sort,Bubble Sort,Mixed (+/-),1000,0.0202916,4.97266
+Read -> Sort,Bubble Sort,Sorted,10000,0.0351821,5.10156
+Read -> Sort,Bubble Sort,Reverse Sorted,10000,0.697709,5.08984
+Read -> Sort,Bubble Sort,Random,10000,0.604805,5.10938
+Read -> Sort,Bubble Sort,Half-Sorted,10000,0.577815,5.10547
+Read -> Sort,Bubble Sort,Mixed (+/-),10000,0.605868,5.08984
+Read -> Sort,Insertion Sort,Sorted,100,0.0010105,4.96875
+Read -> Sort,Insertion Sort,Reverse Sorted,100,0.0012847,4.95312
+Read -> Sort,Insertion Sort,Random,100,0.012853,4.96094
+Read -> Sort,Insertion Sort,Half-Sorted,100,0.0140233,4.96875
+Read -> Sort,Insertion Sort,Mixed (+/-),100,0.0145781,4.96484
+Read -> Sort,Insertion Sort,Sorted,1000,0.0011823,4.96875
+Read -> Sort,Insertion Sort,Reverse Sorted,1000,0.0057245,4.97656
+Read -> Sort,Insertion Sort,Random,1000,0.154558,4.97656
+Read -> Sort,Insertion Sort,Half-Sorted,1000,0.0117728,4.99219
+Read -> Sort,Insertion Sort,Mixed (+/-),1000,0.0157527,4.97656
+Read -> Sort,Insertion Sort,Sorted,10000,0.0300723,5.10156
+Read -> Sort,Insertion Sort,Reverse Sorted,10000,0.448966,5.10156
+Read -> Sort,Insertion Sort,Random,10000,0.239776,5.10547
+Read -> Sort,Insertion Sort,Half-Sorted,10000,0.202896,5.10156
+Read -> Sort,Insertion Sort,Mixed (+/-),10000,0.240217,5.10547
+Read -> Sort,Shell Sort,Sorted,100,0.0012869,4.95703
+Read -> Sort,Shell Sort,Reverse Sorted,100,0.0011746,4.97656
+Read -> Sort,Shell Sort,Random,100,0.0100995,4.97266
+Read -> Sort,Shell Sort,Half-Sorted,100,0.0175067,4.97656
+Read -> Sort,Shell Sort,Mixed (+/-),100,0.0114252,4.96094
+Read -> Sort,Shell Sort,Sorted,1000,0.00145,4.96875
+Read -> Sort,Shell Sort,Reverse Sorted,1000,0.0015039,4.97266
+Read -> Sort,Shell Sort,Random,1000,0.0201539,4.98047
+Read -> Sort,Shell Sort,Half-Sorted,1000,0.0117368,4.97656
+Read -> Sort,Shell Sort,Mixed (+/-),1000,0.0131208,4.98828
+Read -> Sort,Shell Sort,Sorted,10000,0.034623,5.10938
+Read -> Sort,Shell Sort,Reverse Sorted,10000,0.0315221,5.09375
+Read -> Sort,Shell Sort,Random,10000,0.0246804,5.10156
+Read -> Sort,Shell Sort,Half-Sorted,10000,0.0308345,5.10156
+Read -> Sort,Shell Sort,Mixed (+/-),10000,0.0264172,5.10547
+Read -> Sort,Shell Sort,Sorted,100000,0.0764259,5.84375
+Read -> Sort,Shell Sort,Reverse Sorted,100000,0.0754402,5.84766
+Read -> Sort,Shell Sort,Random,100000,0.0817373,6.30859
+Read -> Sort,Shell Sort,Half-Sorted,100000,0.101823,6.28906
+Read -> Sort,Shell Sort,Mixed (+/-),100000,0.0947754,6.30078
+Read -> Sort,Shell Sort,Sorted,1000000,0.488343,13.7812
+Read -> Sort,Shell Sort,Reverse Sorted,1000000,0.380016,13.7852
+Read -> Sort,Shell Sort,Random,1000000,1.03209,13.543
+Read -> Sort,Shell Sort,Half-Sorted,1000000,0.81184,13.543
+Read -> Sort,Shell Sort,Mixed (+/-),1000000,1.04919,13.7969
+Read -> Sort,Merge Sort,Sorted,100,0.0011855,4.95703
+Read -> Sort,Merge Sort,Reverse Sorted,100,0.0011392,4.95312
+Read -> Sort,Merge Sort,Random,100,0.0090261,4.96094
+Read -> Sort,Merge Sort,Half-Sorted,100,0.0091267,4.97266
+Read -> Sort,Merge Sort,Mixed (+/-),100,0.0112018,4.96484
+Read -> Sort,Merge Sort,Sorted,1000,0.0017827,4.97266
+Read -> Sort,Merge Sort,Reverse Sorted,1000,0.0020572,4.99609
+Read -> Sort,Merge Sort,Random,1000,0.019235,4.97266
+Read -> Sort,Merge Sort,Half-Sorted,1000,0.0107715,4.98438
+Read -> Sort,Merge Sort,Mixed (+/-),1000,0.014083,4.97656
+Read -> Sort,Merge Sort,Sorted,10000,0.0330384,5.09375
+Read -> Sort,Merge Sort,Reverse Sorted,10000,0.0326764,5.10156
+Read -> Sort,Merge Sort,Random,10000,0.0252112,5.11719
+Read -> Sort,Merge Sort,Half-Sorted,10000,0.0369319,5.09375
+Read -> Sort,Merge Sort,Mixed (+/-),10000,0.021569,5.09766
+Read -> Sort,Merge Sort,Sorted,100000,0.0982403,6.16406
+Read -> Sort,Merge Sort,Reverse Sorted,100000,0.0724026,6.16016
+Read -> Sort,Merge Sort,Random,100000,0.106989,6.17969
+Read -> Sort,Merge Sort,Half-Sorted,100000,0.10507,6.28906
+Read -> Sort,Merge Sort,Mixed (+/-),100000,0.0795504,6.30078
+Read -> Sort,Merge Sort,Sorted,1000000,0.850704,17.3984
+Read -> Sort,Merge Sort,Reverse Sorted,1000000,0.858753,17.4414
+Read -> Sort,Merge Sort,Random,1000000,0.729134,17.4414
+Read -> Sort,Merge Sort,Half-Sorted,1000000,0.710462,17.4492
+Read -> Sort,Merge Sort,Mixed (+/-),1000000,0.704827,18.8711
+In-Memory Benchmark,Hybrid Sort,Sorted,100,5.00E-07,5.01953
+In-Memory Benchmark,Hybrid Sort,Reverse Sorted,100,5.00E-07,5.02734
+In-Memory Benchmark,Hybrid Sort,Random,100,5.10E-06,5.05078
+In-Memory Benchmark,Hybrid Sort,Half-Sorted,100,1.90E-06,5.05078
+In-Memory Benchmark,Hybrid Sort,Mixed (+/-),100,4.20E-06,5.03906
+In-Memory Benchmark,Hybrid Sort,Sorted,1000,1.20E-06,5.01562
+In-Memory Benchmark,Hybrid Sort,Reverse Sorted,1000,9.00E-07,5.02344
+In-Memory Benchmark,Hybrid Sort,Random,1000,9.86E-05,5.08594
+In-Memory Benchmark,Hybrid Sort,Half-Sorted,1000,9.34E-05,5.08984
+In-Memory Benchmark,Hybrid Sort,Mixed (+/-),1000,9.98E-05,5.09375
+In-Memory Benchmark,Hybrid Sort,Sorted,10000,7.00E-06,5.07031
+In-Memory Benchmark,Hybrid Sort,Reverse Sorted,10000,5.50E-06,5.0625
+In-Memory Benchmark,Hybrid Sort,Random,10000,0.0003365,5.14844
+In-Memory Benchmark,Hybrid Sort,Half-Sorted,10000,0.0001577,5.16406
+In-Memory Benchmark,Hybrid Sort,Mixed (+/-),10000,0.0005687,5.16016
+In-Memory Benchmark,Hybrid Sort,Sorted,100000,6.57E-05,5.41797
+In-Memory Benchmark,Hybrid Sort,Reverse Sorted,100000,5.20E-05,5.41797
+In-Memory Benchmark,Hybrid Sort,Random,100000,0.0010541,5.84766
+In-Memory Benchmark,Hybrid Sort,Half-Sorted,100000,0.0033183,5.83984
+In-Memory Benchmark,Hybrid Sort,Mixed (+/-),100000,0.0031814,5.85547
+In-Memory Benchmark,Hybrid Sort,Sorted,1000000,0.00075,8.84766
+In-Memory Benchmark,Hybrid Sort,Reverse Sorted,1000000,0.0006205,8.84766
+In-Memory Benchmark,Hybrid Sort,Random,1000000,0.0087272,12.9688
+In-Memory Benchmark,Hybrid Sort,Half-Sorted,1000000,0.009507,12.9766
+In-Memory Benchmark,Hybrid Sort,Mixed (+/-),1000000,0.0081439,12.9648
+In-Memory Benchmark,Hybrid Sort,Sorted,10000000,0.0082077,43.1875
+In-Memory Benchmark,Hybrid Sort,Reverse Sorted,10000000,0.0131903,43.1914
+In-Memory Benchmark,Hybrid Sort,Random,10000000,0.0630489,81.9375
+In-Memory Benchmark,Hybrid Sort,Half-Sorted,10000000,0.125203,81.9375
+In-Memory Benchmark,Hybrid Sort,Mixed (+/-),10000000,0.0538319,81.957
+Read -> Sort -> Write,Hybrid Sort,Sorted,100,0.0087835,5.14844
+Read -> Sort -> Write,Hybrid Sort,Reverse Sorted,100,0.0160714,5.13281
+Read -> Sort -> Write,Hybrid Sort,Random,100,0.0140563,5.14062
+Read -> Sort -> Write,Hybrid Sort,Half-Sorted,100,0.0107248,5.15234
+Read -> Sort -> Write,Hybrid Sort,Mixed (+/-),100,0.0105551,5.14844
+Read -> Sort -> Write,Hybrid Sort,Sorted,1000,0.00424,5.13672
+Read -> Sort -> Write,Hybrid Sort,Reverse Sorted,1000,0.0018419,5.15234
+Read -> Sort -> Write,Hybrid Sort,Random,1000,0.0234815,5.1875
+Read -> Sort -> Write,Hybrid Sort,Half-Sorted,1000,0.0378382,5.17578
+Read -> Sort -> Write,Hybrid Sort,Mixed (+/-),1000,0.0122403,5.18359
+Read -> Sort -> Write,Hybrid Sort,Sorted,10000,0.0322563,5.26953
+Read -> Sort -> Write,Hybrid Sort,Reverse Sorted,10000,0.0251316,5.26953
+Read -> Sort -> Write,Hybrid Sort,Random,10000,0.0252197,5.28906
+Read -> Sort -> Write,Hybrid Sort,Half-Sorted,10000,0.0307361,5.30859
+Read -> Sort -> Write,Hybrid Sort,Mixed (+/-),10000,0.0121032,5.28516
+Read -> Sort -> Write,Hybrid Sort,Sorted,100000,0.0462397,6.46484
+Read -> Sort -> Write,Hybrid Sort,Reverse Sorted,100000,0.0320935,6.46875
+Read -> Sort -> Write,Hybrid Sort,Random,100000,0.0381489,6.39844
+Read -> Sort -> Write,Hybrid Sort,Half-Sorted,100000,0.0462516,6.38672
+Read -> Sort -> Write,Hybrid Sort,Mixed (+/-),100000,0.032338,6.88672
+Read -> Sort -> Write,Hybrid Sort,Sorted,1000000,0.183659,13.7109
+Read -> Sort -> Write,Hybrid Sort,Reverse Sorted,1000000,0.168115,13.7109
+Read -> Sort -> Write,Hybrid Sort,Random,1000000,0.167724,16.8906
+Read -> Sort -> Write,Hybrid Sort,Half-Sorted,1000000,0.189606,16.9141
+Read -> Sort -> Write,Hybrid Sort,Mixed (+/-),1000000,0.183396,16.9297
+Read -> Sort -> Write,Hybrid Sort,Sorted,10000000,1.68826,108.301
+Read -> Sort -> Write,Hybrid Sort,Reverse Sorted,10000000,1.58753,108.293
+Read -> Sort -> Write,Hybrid Sort,Random,10000000,1.53884,120.91
+Read -> Sort -> Write,Hybrid Sort,Half-Sorted,10000000,1.71622,120.902
+Read -> Sort -> Write,Hybrid Sort,Mixed (+/-),10000000,1.5793,120.188
+Sort -> Write,Hybrid Sort,Sorted,100,0.0084514,5.13281
+Sort -> Write,Hybrid Sort,Reverse Sorted,100,0.0006553,5.12891
+Sort -> Write,Hybrid Sort,Random,100,0.001079,5.14453
+Sort -> Write,Hybrid Sort,Half-Sorted,100,0.000499,5.14453
+Sort -> Write,Hybrid Sort,Mixed (+/-),100,0.0010277,5.15234
+Sort -> Write,Hybrid Sort,Sorted,1000,0.0010641,5.13281
+Sort -> Write,Hybrid Sort,Reverse Sorted,1000,0.0005238,5.14844
+Sort -> Write,Hybrid Sort,Random,1000,0.00062,5.17969
+Sort -> Write,Hybrid Sort,Half-Sorted,1000,0.0039046,5.18359
+Sort -> Write,Hybrid Sort,Mixed (+/-),1000,0.000666,5.17578
+Sort -> Write,Hybrid Sort,Sorted,10000,0.0012112,5.17188
+Sort -> Write,Hybrid Sort,Reverse Sorted,10000,0.019124,5.17578
+Sort -> Write,Hybrid Sort,Random,10000,0.0073746,5.23047
+Sort -> Write,Hybrid Sort,Half-Sorted,10000,0.0099946,5.23828
+Sort -> Write,Hybrid Sort,Mixed (+/-),10000,0.0013876,5.24609
+Sort -> Write,Hybrid Sort,Sorted,100000,0.008742,5.51172
+Sort -> Write,Hybrid Sort,Reverse Sorted,100000,0.029685,5.51953
+Sort -> Write,Hybrid Sort,Random,100000,0.0120205,5.91797
+Sort -> Write,Hybrid Sort,Half-Sorted,100000,0.0139041,5.92188
+Sort -> Write,Hybrid Sort,Mixed (+/-),100000,0.0080815,5.92969
+Sort -> Write,Hybrid Sort,Sorted,1000000,0.072442,8.94922
+Sort -> Write,Hybrid Sort,Reverse Sorted,1000000,0.0834213,8.96094
+Sort -> Write,Hybrid Sort,Random,1000000,0.0680663,12.9688
+Sort -> Write,Hybrid Sort,Half-Sorted,1000000,0.0856411,12.9609
+Sort -> Write,Hybrid Sort,Mixed (+/-),1000000,0.0753326,12.9883
+Sort -> Write,Hybrid Sort,Sorted,10000000,0.743114,43.2891
+Sort -> Write,Hybrid Sort,Reverse Sorted,10000000,0.733121,43.2773
+Sort -> Write,Hybrid Sort,Random,10000000,0.66681,81.9453
+Sort -> Write,Hybrid Sort,Half-Sorted,10000000,0.755463,81.9336
+Sort -> Write,Hybrid Sort,Mixed (+/-),10000000,0.720102,81.9414
+Read -> Sort,Hybrid Sort,Sorted,100,0.0011364,5.13672
+Read -> Sort,Hybrid Sort,Reverse Sorted,100,0.0012157,5.14453
+Read -> Sort,Hybrid Sort,Random,100,0.0116172,5.15625
+Read -> Sort,Hybrid Sort,Half-Sorted,100,0.0117999,5.13281
+Read -> Sort,Hybrid Sort,Mixed (+/-),100,0.010981,5.14453
+Read -> Sort,Hybrid Sort,Sorted,1000,0.0032948,5.14453
+Read -> Sort,Hybrid Sort,Reverse Sorted,1000,0.001034,5.14453
+Read -> Sort,Hybrid Sort,Random,1000,0.0467441,5.18359
+Read -> Sort,Hybrid Sort,Half-Sorted,1000,0.0113394,5.17578
+Read -> Sort,Hybrid Sort,Mixed (+/-),1000,0.0123292,5.17188
+Read -> Sort,Hybrid Sort,Sorted,10000,0.0259853,5.27734
+Read -> Sort,Hybrid Sort,Reverse Sorted,10000,0.0234704,5.26562
+Read -> Sort,Hybrid Sort,Random,10000,0.0195878,5.28516
+Read -> Sort,Hybrid Sort,Half-Sorted,10000,0.0285192,5.28125
+Read -> Sort,Hybrid Sort,Mixed (+/-),10000,0.0134032,5.3125
+Read -> Sort,Hybrid Sort,Sorted,100000,0.037135,6.45703
+Read -> Sort,Hybrid Sort,Reverse Sorted,100000,0.0259779,6.01172
+Read -> Sort,Hybrid Sort,Random,100000,0.027604,6.875
+Read -> Sort,Hybrid Sort,Half-Sorted,100000,0.038172,6.88672
+Read -> Sort,Hybrid Sort,Mixed (+/-),100000,0.0267486,6.39062
+Read -> Sort,Hybrid Sort,Sorted,1000000,0.114507,13.7227
+Read -> Sort,Hybrid Sort,Reverse Sorted,1000000,0.100604,13.7188
+Read -> Sort,Hybrid Sort,Random,1000000,0.112184,17.8711
+Read -> Sort,Hybrid Sort,Half-Sorted,1000000,0.116368,16.9453
+Read -> Sort,Hybrid Sort,Mixed (+/-),1000000,0.112904,17.8438
+Read -> Sort,Hybrid Sort,Sorted,10000000,0.948139,108.301
+Read -> Sort,Hybrid Sort,Reverse Sorted,10000000,0.880103,108.293
+Read -> Sort,Hybrid Sort,Random,10000000,0.958984,120.895
+Read -> Sort,Hybrid Sort,Half-Sorted,10000000,1.05694,120.211
+Read -> Sort,Hybrid Sort,Mixed (+/-),10000000,1.01557,120.191
