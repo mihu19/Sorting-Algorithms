@@ -36,6 +36,15 @@ To compile and run this project:
 2. **Open the Project:** Launch Visual Studio Code and open the extracted `Sorting-Algorithms` folder.
 3. **Open the Terminal:** In the top menu, click **Terminal** > **New Terminal** (or press `` Ctrl + ` ``).
 4. **Navigate to the Source Folder:**
+   ```bash
+   cd src
+5. Compile:
+   ```bash
+    g++ main.cpp BubbleSort.cpp InsertionSort.cpp ShellSort.cpp MergeSort.cpp HybridSort.cpp ArrayGenerator.cpp Files.cpp Memory.cpp CSV.cpp -o sort -lpsapi -fopenmp -O3
+6. Run:
+   ```bash
+   .\sort.exe
+
 
 ### Option B: Using CMD (Git Required)
 1. Clone the repository:
