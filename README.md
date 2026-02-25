@@ -30,7 +30,9 @@ To compile and run this project:
 
 ### Installation & Compilation (Windows)
 
-1. Clone the repository and navigate to the `src` directory:
+1. Clone the repository:
    ```bash
-   git clone [https://github.com/mihu19/Sorting-Algorithms.git](https://github.com/mihu19/Sorting-Algorithms.git)
+   git clone https://github.com/mihu19/Sorting-Algorithms.git
+2. Navigate to the `src` directory:
+   ```bash
    cd Sorting-Algorithms/src
