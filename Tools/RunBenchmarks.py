@@ -6,7 +6,7 @@ algorithms = [1, 2, 3, 4, 5]
 sizes = [100, 1000, 10000, 100000, 1000000]
 array_types = [5]
 
-executable_path = "./sort.exe" # should be in the same dir
+executable_path = "./sort.exe" # should be in the same directory
 for mode in modes:
     for algo in algorithms:
         for size in sizes:
@@ -36,4 +36,5 @@ for mode in modes:
                 except subprocess.TimeoutExpired:
                     print("Process timed out.")
                 except Exception as e:
+
                     print(f"An error occurred: {e}")
