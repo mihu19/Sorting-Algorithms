@@ -3,7 +3,7 @@
 To compile and run this code:
 * **C++ Compiler:** 
 * **Windows PowerShell** or standard command prompt.
-* **Input.txt** file with elements to be sorted
+* **Input.txt** file with elements to be sorted (in the same directory)
 
 
 ## Compilation and Running (Windows)
@@ -21,6 +21,7 @@ To compile and run this code:
    .\HybridSort.exe input.txt               ::Reading file + Sorting
    .\HybridSort.exe input.txt stdout        ::Reading file + Sorting + Printing in Console
    .\HybridSort.exe input.txt output.txt    ::Reading file + Sorting + Writing output in file
+
 
 
 
