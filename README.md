@@ -38,24 +38,24 @@ To compile and run this project:
 4. **Navigate to the Source Folder:**
    ```bash
    cd src
-5. Compile:
+5. **Compile:**
    ```bash
     g++ main.cpp BubbleSort.cpp InsertionSort.cpp ShellSort.cpp MergeSort.cpp HybridSort.cpp ArrayGenerator.cpp Files.cpp Memory.cpp CSV.cpp -o sort -lpsapi -fopenmp -O3
-6. Run:
+6. **Run:**
    ```bash
    .\sort.exe
 
 
 ### Option B: Using CMD (Git Required)
-1. Clone the repository:
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/mihu19/Sorting-Algorithms.git
-2. Navigate to the `src` directory:
+2. **Navigate to the `src` directory:**
    ```bash
    cd Sorting-Algorithms/src
-3. Compile:
+3. **Compile:**
    ```bash
    g++ main.cpp BubbleSort.cpp InsertionSort.cpp ShellSort.cpp MergeSort.cpp HybridSort.cpp ArrayGenerator.cpp Files.cpp Memory.cpp CSV.cpp -o sort -lpsapi -fopenmp -O3
-4. Run:
+4. **Run:**
    ```bash
    .\sort.exe
