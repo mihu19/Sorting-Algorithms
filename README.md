@@ -25,12 +25,14 @@ The repository includes the following sorting algorithms:
 
 To compile and run this project:
 * **C++ Compiler:** Windows - `g++`, macOS - `clang++`
-* **C++ Compiler:** 
 * **Windows PowerShell** or standard command prompt.
+* * **(macOS) OpenMP library** - required for parallel execution.
+    ```bash
+    brew install libomp
 * **Python 3.x** (Optional: only needed if you want to run the analysis scripts in the `Tools/` folder).
 
 
-## Installation & Compilation (Windows)
+## Installation & Compilation
 ### Option A: Using Visual Studio Code (No Git Required)
 
 1. **Download the Code:** Click the green **Code** button at the top of this repository and select **Download ZIP**. Extract the folder to your computer.
@@ -39,12 +41,20 @@ To compile and run this project:
 4. **Navigate to the Source Folder:**
    ```bash
    cd src
-5. **Compile:**
+5. **Compile: (Windows)**
    ```bash
     g++ main.cpp BubbleSort.cpp InsertionSort.cpp ShellSort.cpp MergeSort.cpp HybridSort.cpp ArrayGenerator.cpp Files.cpp Memory.cpp CSV.cpp -o sort -lpsapi -fopenmp -O3
-6. **Run:**
+6. **Compile: (macOS)**
+   ```bash
+   clang++ main.cpp BubbleSort.cpp InsertionSort.cpp ShellSort.cpp MergeSort.cpp HybridSort.cpp ArrayGenerator.cpp Files.cpp Memory.cpp CSV.cpp -O3 -std=c++17 -Xpreprocessor -fopenmp -I$(brew --prefix libomp)/include -L$(brew --prefix libomp)/lib -lomp -o sort
+
+7. **Run:**
+   Windows:
    ```bash
    .\sort.exe
+macOS:
+   ```bash
+   ./sort
 
 
 ### Option B: Using CMD (Git Required)
