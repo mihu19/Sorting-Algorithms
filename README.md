@@ -41,18 +41,22 @@ To compile and run this project:
 4. **Navigate to the Source Folder:**
    ```bash
    cd src
-5. **Compile: (Windows)**
+   ```
+5. **Compile:**
+   *Windows:*
    ```bash
     g++ main.cpp BubbleSort.cpp InsertionSort.cpp ShellSort.cpp MergeSort.cpp HybridSort.cpp ArrayGenerator.cpp Files.cpp Memory.cpp CSV.cpp -o sort -lpsapi -fopenmp -O3
-6. **Compile: (macOS)**
+   ```
+   *macOS*
    ```bash
    clang++ main.cpp BubbleSort.cpp InsertionSort.cpp ShellSort.cpp MergeSort.cpp HybridSort.cpp ArrayGenerator.cpp Files.cpp Memory.cpp CSV.cpp -O3 -std=c++17 -Xpreprocessor -fopenmp -I$(brew --prefix libomp)/include -L$(brew --prefix libomp)/lib -lomp -o sort
 
-7. **Run:**
-   Windows:
+6. **Run:**
+   *Windows:*
    ```bash
    .\sort.exe
-macOS:
+   ```
+   *macOS:*
    ```bash
    ./sort
 
