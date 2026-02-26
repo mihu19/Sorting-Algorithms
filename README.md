@@ -4,7 +4,7 @@ A  C++ and Python project designed to implement, test, and benchmark various sor
 
 This tool generates data arrays, sorts them using multiple techniques, and automatically logs performance metrics—such as execution time and memory usage into CSV files. The included Python tools can then be used to analyze and visualize the benchmark results.
 
-`Competition: “The Fastest Sorting Algorithm”` - `Hybrid Sort`
+## **Competition: “The Fastest Sorting Algorithm” - Hybrid Sort**
 
 ## Implemented Algorithms
 
