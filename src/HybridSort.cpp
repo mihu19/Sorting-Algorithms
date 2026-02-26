@@ -8,16 +8,35 @@
 #include <omp.h>
 using namespace std;
 
-//ALIGNED MEMORY MACROS
-#ifdef _WIN32
-#include <malloc.h>
-#define ALLOC(s) _aligned_malloc((s), 64)
-#define FREE(p) _aligned_free(p)
+//ALIGNED MEMORY – portable across MSVC, GCC, Clang, MinGW
+#include <cstdlib>
+#if defined(_MSC_VER)
+  #include <malloc.h>
+  inline void* portable_aligned_alloc(size_t alignment, size_t size) { return _aligned_malloc(size, alignment); }
+  inline void  portable_aligned_free(void* p) { _aligned_free(p); }
+#elif defined(_WIN32) && !defined(_MSC_VER)
+  //for Mingw
+  #include <malloc.h>
+  inline void* portable_aligned_alloc(size_t alignment, size_t size) {
+      void* raw = std::malloc(size + alignment + sizeof(void*));
+      if (!raw) return nullptr;
+      void* aligned = reinterpret_cast<void*>((reinterpret_cast<uintptr_t>(raw) + alignment + sizeof(void*)) & ~(alignment - 1));
+      reinterpret_cast<void**>(aligned)[-1] = raw;
+      return aligned;
+  }
+  inline void portable_aligned_free(void* p) {
+      if (p) std::free(reinterpret_cast<void**>(p)[-1]);
+  }
 #else
-#include <stdlib.h>
-inline void* ALLOC(size_t s) { void* p; return posix_memalign(&p, 64, s) == 0 ? p : nullptr; }
-#define FREE(p) free(p)
+  //Linux, macOS
+  inline void* portable_aligned_alloc(size_t alignment, size_t size) {
+      void* p = nullptr;
+      return posix_memalign(&p, alignment, size) == 0 ? p : nullptr;
+  }
+  inline void portable_aligned_free(void* p) { std::free(p); }
 #endif
+#define ALLOC(s) portable_aligned_alloc(64, (s))
+#define FREE(p)  portable_aligned_free(p)
 
 //HELPER CLASSES AND FUNCTIONS
 enum class DataState { ASCENDING, DESCENDING, RANDOM };
@@ -110,20 +129,16 @@ void radixSort(vector<T>& arr) {
     if (src != arr.data()) memcpy(arr.data(), src, n * sizeof(T));
 }
 
-//MAIN WRAPPER
-// Wrapper to match your benchmarkss void(vector<int>&) 
 void hybridSort(vector<int>& data) {
     size_t N = data.size();
     if (N < 2) return;
 
     DataState state = checkDataState(data);
 
-    if (state == DataState::ASCENDING) {
-        return; // Already sorted
-    }
-    else if (state == DataState::DESCENDING) {
+    if (state == DataState::ASCENDING) 
+        return; 
+    else if (state == DataState::DESCENDING) 
         std::reverse(data.begin(), data.end());
-    }
     else {
         if (N < 256) {
             insertionSort(data); // uses the one from utils.h
