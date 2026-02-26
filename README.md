@@ -43,6 +43,7 @@ To compile and run this project:
    cd src
    ```
 5. **Compile:**
+   
    *Windows:*
    ```bash
     g++ main.cpp BubbleSort.cpp InsertionSort.cpp ShellSort.cpp MergeSort.cpp HybridSort.cpp ArrayGenerator.cpp Files.cpp Memory.cpp CSV.cpp -o sort -lpsapi -fopenmp -O3
@@ -50,8 +51,8 @@ To compile and run this project:
    *macOS*
    ```bash
    clang++ main.cpp BubbleSort.cpp InsertionSort.cpp ShellSort.cpp MergeSort.cpp HybridSort.cpp ArrayGenerator.cpp Files.cpp Memory.cpp CSV.cpp -O3 -std=c++17 -Xpreprocessor -fopenmp -I$(brew --prefix libomp)/include -L$(brew --prefix libomp)/lib -lomp -o sort
-
-6. **Run:**
+7. **Run:**
+   
    *Windows:*
    ```bash
    .\sort.exe
@@ -59,8 +60,6 @@ To compile and run this project:
    *macOS:*
    ```bash
    ./sort
-
-
 ### Option B: Using CMD (Git Required)
 1. **Clone the repository:**
    ```bash
