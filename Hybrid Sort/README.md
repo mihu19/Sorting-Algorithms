@@ -22,6 +22,15 @@ To compile and run this code:
    .\HybridSort.exe input.txt stdout        ::Reading file + Sorting + Printing in Console
    .\HybridSort.exe input.txt output.txt    ::Reading file + Sorting + Writing output in file
 
+## Compilation and Running (Mac)
+**Compile Hybrid Sort:**
+   
+   ```bash
+    clang++ -O3 -flto -DNDEBUG -std=c++17 -march=native \-Xpreprocessor -fopenmp \-I$(brew --prefix libomp)/include \-L$(brew --prefix libomp)/lib -lomp \sort.cpp -o sort && ./sort in.txt
+
+**Compile Hybrid Sort:**  
+
+
 
 
 
