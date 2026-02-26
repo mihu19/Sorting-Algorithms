@@ -44,7 +44,8 @@ To compile and run this code:
 
 Compiled as normal `c++` programs
 
-`*random.cpp*` - Generates 1,000,000 random int32 values and writes to `input.txt`.
+`random.cpp` - Generates 1,000,000 random int32 values and writes to `input.txt`.
 
-`*asc-desc.cpp*` - Generates 1,000,000 ascending (or descending) int32 values and writes to `input.txt`.
+`asc-desc.cpp` - Generates 1,000,000 ascending (or descending) int32 values and writes to `input.txt`.
+
 
