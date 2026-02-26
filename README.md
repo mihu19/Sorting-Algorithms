@@ -24,6 +24,7 @@ The repository includes the following sorting algorithms:
 ## Prerequisites
 
 To compile and run this project:
+* **C++ Compiler:** Windows - `g++`, macOS - `clang++`
 * **C++ Compiler:** 
 * **Windows PowerShell** or standard command prompt.
 * **Python 3.x** (Optional: only needed if you want to run the analysis scripts in the `Tools/` folder).
