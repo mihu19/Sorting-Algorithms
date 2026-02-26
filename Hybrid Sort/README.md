@@ -7,8 +7,6 @@ To compile and run this code:
 * **(macOS) OpenMP library** - required for parallel execution.
     ```bash
     brew install libomp
-
-
 ## Compilation and Running (Windows)
 
 1. **Open the Project:** Launch Visual Studio Code and open the extracted `Sorting-Algorithms` folder.
@@ -24,19 +22,14 @@ To compile and run this code:
    .\HybridSort.exe input.txt               ::Reading file + Sorting
    .\HybridSort.exe input.txt stdout        ::Reading file + Sorting + Printing in Console
    .\HybridSort.exe input.txt output.txt    ::Reading file + Sorting + Writing output in file
-
 ## Compilation and Running (macOS)
 **Compile Hybrid Sort:**
    
        clang++ -O3 -flto -DNDEBUG -std=c++17 -march=native \-Xpreprocessor -fopenmp \-I$(brew --prefix libomp)/include \-L$(brew --prefix libomp)/lib -lomp \sort.cpp -o sort && ./sort input.txt
-
 **Tools**  
 *random.cpp* - Generates 1,000,000 random int32 values and writes to `input.txt`.
 
     clang++ -O3 -march=native random.cpp -o random && ./random
-
 *Ascending / Descending* - Generates 1,000,000 ascending (or descending) int32 values and writes to `input.txt`.
    ```bash
     clang++ -O3 -march=native gener.cpp -o gener && ./gener 
-
-
