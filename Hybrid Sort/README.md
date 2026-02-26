@@ -35,12 +35,4 @@ To compile and run this code:
 
 *Ascending / Descending*
    ```bash
-   clang++ -O3 -march=native gener.cpp -o gener && ./gener
-      
-
-
-
-
-
-
-
+    clang++ -O3 -march=native gener.cpp -o gener && ./gener 
