@@ -21,22 +21,22 @@ To compile and run this code:
     g++ -O3 -march=native -fopenmp  -DNDEBUG -fno-exceptions -fno-rtti -lpsapi sort.cpp -o HybridSort
 5. **Run:**
    ```bash
-   .\HybridSort.exe in.txt               ::Reading file + Sorting
-   .\HybridSort.exe in.txt stdout        ::Reading file + Sorting + Printing in Console
-   .\HybridSort.exe in.txt output.txt    ::Reading file + Sorting + Writing output in file
+   .\HybridSort.exe input.txt               ::Reading file + Sorting
+   .\HybridSort.exe input.txt stdout        ::Reading file + Sorting + Printing in Console
+   .\HybridSort.exe input.txt output.txt    ::Reading file + Sorting + Writing output in file
 
-## Compilation and Running (Mac)
+## Compilation and Running (macOS)
 **Compile Hybrid Sort:**
    
-       clang++ -O3 -flto -DNDEBUG -std=c++17 -march=native \-Xpreprocessor -fopenmp \-I$(brew --prefix libomp)/include \-L$(brew --prefix libomp)/lib -lomp \sort.cpp -o sort && ./sort in.txt
+       clang++ -O3 -flto -DNDEBUG -std=c++17 -march=native \-Xpreprocessor -fopenmp \-I$(brew --prefix libomp)/include \-L$(brew --prefix libomp)/lib -lomp \sort.cpp -o sort && ./sort input.txt
 
-
-**Compile Tools**  
-*random.cpp*
+**Tools**  
+*random.cpp* - Generates 1,000,000 random int32 values and writes to `input.txt`.
 
     clang++ -O3 -march=native random.cpp -o random && ./random
 
-*Ascending / Descending*
+*Ascending / Descending* - Generates 1,000,000 ascending (or descending) int32 values and writes to `input.txt`.
    ```bash
     clang++ -O3 -march=native gener.cpp -o gener && ./gener 
+
 
