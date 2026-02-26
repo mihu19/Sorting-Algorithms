@@ -25,10 +25,12 @@ To compile and run this code:
 ## Compilation and Running (Mac)
 **Compile Hybrid Sort:**
    
-   ```bash
+    ```bash
     clang++ -O3 -flto -DNDEBUG -std=c++17 -march=native \-Xpreprocessor -fopenmp \-I$(brew --prefix libomp)/include \-L$(brew --prefix libomp)/lib -lomp \sort.cpp -o sort && ./sort in.txt
 
-**Compile Hybrid Sort:**  
+
+**Compile Tools**  
+
 
 
 
