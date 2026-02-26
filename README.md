@@ -26,7 +26,7 @@ The repository includes the following sorting algorithms:
 To compile and run this project:
 * **C++ Compiler:** Windows - `g++`, macOS - `clang++`
 * **Windows PowerShell** or standard command prompt.
-* * **(macOS) OpenMP library** - required for parallel execution.
+* **(macOS) OpenMP library** - required for parallel execution.
     ```bash
     brew install libomp
 * **Python 3.x** (Optional: only needed if you want to run the analysis scripts in the `Tools/` folder).
@@ -68,8 +68,20 @@ To compile and run this project:
    ```bash
    cd Sorting-Algorithms/src
 3. **Compile:**
+   
+    *Windows:*
    ```bash
-   g++ main.cpp BubbleSort.cpp InsertionSort.cpp ShellSort.cpp MergeSort.cpp HybridSort.cpp ArrayGenerator.cpp Files.cpp Memory.cpp CSV.cpp -o sort -lpsapi -fopenmp -O3
+    g++ main.cpp BubbleSort.cpp InsertionSort.cpp ShellSort.cpp MergeSort.cpp HybridSort.cpp ArrayGenerator.cpp Files.cpp Memory.cpp CSV.cpp -o sort -lpsapi -fopenmp -O3
+   ```
+   *macOS*
+   ```bash
+   clang++ main.cpp BubbleSort.cpp InsertionSort.cpp ShellSort.cpp MergeSort.cpp HybridSort.cpp ArrayGenerator.cpp Files.cpp Memory.cpp CSV.cpp -O3 -std=c++17 -Xpreprocessor -fopenmp -I$(brew --prefix libomp)/include -L$(brew --prefix libomp)/lib -lomp -o sort
 4. **Run:**
+   
+   *Windows:*
    ```bash
    .\sort.exe
+   ```
+   *macOS:*
+   ```bash
+   ./sort
