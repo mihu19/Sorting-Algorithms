@@ -1,5 +1,3 @@
-// gen_ascending.cpp
-// Generates 1,000,000 ascending int32 values and writes to "in.txt".
 #include <cstdint>
 #include <fstream>
 #include <iostream>
@@ -9,7 +7,7 @@
 
 int main() {
     const std::size_t N = 1000000;
-    std::ofstream out("in.txt");
+    std::ofstream out("input.txt");
     if (!out) {
         std::cerr << "Error: can't open in.txt for writing\n";
         return 1;
