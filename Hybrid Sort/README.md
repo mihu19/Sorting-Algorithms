@@ -40,11 +40,7 @@ To compile and run this code:
    ./HybridSort input.txt output.txt
    ```
         
-**Tools**  
+**Tools (optional)**
+Compiled as normal `c++` programs
 *random.cpp* - Generates 1,000,000 random int32 values and writes to `input.txt`.
-
-    clang++ -O3 -march=native random.cpp -o random && ./random
-*Ascending / Descending* - Generates 1,000,000 ascending (or descending) int32 values and writes to `input.txt`.
-   ```bash
-    clang++ -O3 -march=native gener.cpp -o gener && ./gener 
-
+*Asc/Desc* - Generates 1,000,000 ascending (or descending) int32 values and writes to `input.txt`.
