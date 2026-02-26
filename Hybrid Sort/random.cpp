@@ -1,6 +1,3 @@
-// gen_in.cpp
-// Generates 1,000,000 random int32 values and writes to "in.txt".
-// Format: first line N, then N numbers (one per line).
 #include <cstdint>
 #include <fstream>
 #include <iostream>
@@ -8,7 +5,7 @@
 
 int main() {
     const std::size_t N = 1000000;
-    std::ofstream out("in.txt");
+    std::ofstream out("input.txt");
     if (!out) {
         std::cerr << "Error: can't open in.txt for writing\n";
         return 1;
