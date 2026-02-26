@@ -4,6 +4,9 @@ To compile and run this code:
 * **C++ Compiler:** 
 * **Windows PowerShell** or standard command prompt.
 * **Input.txt** file with elements to be sorted (in the same directory)
+* **(macOS) OpenMP library** - required for parallel execution.
+    ```bash
+    brew install libomp
 
 
 ## Compilation and Running (Windows)
@@ -18,9 +21,9 @@ To compile and run this code:
     g++ -O3 -march=native -fopenmp  -DNDEBUG -fno-exceptions -fno-rtti -lpsapi sort.cpp -o HybridSort
 5. **Run:**
    ```bash
-   .\HybridSort.exe input.txt               ::Reading file + Sorting
-   .\HybridSort.exe input.txt stdout        ::Reading file + Sorting + Printing in Console
-   .\HybridSort.exe input.txt output.txt    ::Reading file + Sorting + Writing output in file
+   .\HybridSort.exe in.txt               ::Reading file + Sorting
+   .\HybridSort.exe in.txt stdout        ::Reading file + Sorting + Printing in Console
+   .\HybridSort.exe in.txt output.txt    ::Reading file + Sorting + Writing output in file
 
 ## Compilation and Running (Mac)
 **Compile Hybrid Sort:**
@@ -36,3 +39,4 @@ To compile and run this code:
 *Ascending / Descending*
    ```bash
     clang++ -O3 -march=native gener.cpp -o gener && ./gener 
+
